@@ -1,0 +1,189 @@
+
+
+.head-1{
+  font-size: 3rem;
+}
+.head-2{
+  font-size: 2rem;
+}
+
+.box{
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+.mdl-img{
+  margin-top: 100px;
+}
+.tq-img{
+  max-width: 5rem;
+  z-index: 1;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+.align{
+  text-align: center;
+}
+.space{
+  padding: 5px 10px;
+  margin: 2rem;
+  font-size: larger;
+  font-weight: 600;
+  background-color: rgb(255, 255, 255);
+  color: #35AF58;
+  border-radius: 5px;
+  border: 3px solid #35AF58;
+}
+.intro{
+  margin: 0 2rem 1rem;
+}
+
+
+
+#carouselExample{
+  width: 100%;
+  max-width: 400px;
+}
+.d-block{
+  height: 600px;
+  position: relative;
+  display: block;
+  visibility: visible;
+}
+
+
+
+
+
+#Feature td, #Feature th {
+  border: 1px solid #ddd;
+}
+
+#Feature tr:nth-child(even){
+  background-color: #efefef;
+}
+
+
+#Feature th {
+  background-color: #35AF58;
+}
+
+
+
+
+
+table {
+  margin: 2rem 0;
+  width: 100%;
+  font-family: arial, sans-serif;
+}
+th{
+  background-color: rgb(35, 35, 133);
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 30px;
+}
+td, th {
+  padding: 20px 10px 20px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+#model tr:nth-child(odd) {
+  background-color: #efefef;
+}
+
+.sela{
+  font-size: larger;
+  font-weight: 600;
+  color: #434343;
+}
+.selb{
+  font-size: larger;
+  color: #555555;
+}
+
+
+
+
+
+ol {
+  list-style: none;
+  counter-reset: steps;
+}
+ol li {
+  counter-increment: steps;
+  color: #35AF58;
+  font-size: xx-large;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-style: italic;
+  text-transform: uppercase;
+}
+ol li::before {
+  content: counter(steps);
+  margin: 2rem;
+  font-weight: 600;
+  background: #ffffff;
+  border: 3px solid #35AF58;
+  color: #35AF58;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  display: inline-grid;
+  place-items: center;
+  line-height: 2rem;
+}
+
+p{
+  padding: 1rem 8rem 2rem;
+  text-align: left;
+  font-size: large;
+}
+
+
+
+
+
+@media (max-width:990px) {
+  .head-1{
+    text-align: center;
+    font-size: 2.6rem;
+    margin: 20px 0 0;
+  }
+  .box{
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 0;
+  }
+  .space{
+    margin: 10px;
+  }
+  .mdl-img{
+    margin: 0;
+  }
+  #carouselExample{
+    margin: 0;
+    width: 85%;
+  }
+  ul{
+    padding: 0;
+  }
+  p{
+    padding: 10px;
+  }
+  ol{
+    padding: 10px;
+    margin: 0;
+  }
+  ol li::before{
+    margin: 2rem 1rem 0 0;
+  }
+  ol li{
+    margin: 0;
+    font-size: 20px;
+  }
+}
